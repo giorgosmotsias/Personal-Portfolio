@@ -1,27 +1,26 @@
 //App.js is the main component of the app , here will set the structure of the app and add the rooting
-
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
-import About from "./pages/About";
-import Projects from "./pages/Projects";
-import Skills from "./pages/Skills";
-import Experience from "./pages/Experience";
-import Contact from "./pages/Contact";
-import Header from "./components/Headers";
+import About from './pages/About';
+import Projects from './pages/Projects';
+import Skills from './pages/Skills';
+import Experience from './pages/Experience';
+import Contact from './pages/Contact';
+import Header from './components/Headers';
 
 function App() {
   return (
     <Router>
       <div>
-        <Header /> 
+        <Header />
         <Routes>
-          <Route exact path="/" component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/projects" component={Projects} />
-          <Route path="/skills" component={Skills} />
-          <Route path="/experience" component={Experience} />
-          <Route path="/contact" component={Contact} />
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/skills" element={<Skills />} />
+          <Route path="/experience" element={<Experience />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
     </Router>
