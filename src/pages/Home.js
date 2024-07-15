@@ -1,4 +1,14 @@
 //react component for home page
 import React  from 'react';
 
-const = 
+const Home = () => {
+    return (
+        <div>
+        <h1>Home</h1>
+
+        </div>
+
+    )
+}
+
+export default Home;
