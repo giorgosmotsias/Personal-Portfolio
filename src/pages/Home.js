@@ -4,8 +4,10 @@ import React  from 'react';
 const Home = () => {
     return (
         <div>
-        <h1>Home</h1>
-
+            <h1>Home</h1>
+            <p>Hi, I'm Giorgos Motsias, a software engineer with expertise in developing innovative solutions.
+                Welcome to my personal portfolio where you can explore my projects, skills, and professional experience.
+            </p>
         </div>
 
     )
