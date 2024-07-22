@@ -3,7 +3,7 @@ import React  from 'react';
 
 const About = () => {
     return (
-        <div>
+        <div className='content'>
         <h1>About Me</h1>
         <p>
             I am Giorgos Motsias, a dedicated software engineer with a passion for technology and innovation.
@@ -12,14 +12,14 @@ const About = () => {
             that demonstrate my skills in full-stack development, problem-solving, and teamwork.
         </p>
         <p>
-            Throughout my career, I have honed my skills in programming languages such as JavaScript, Python, and Java,
-            and I am proficient in frameworks like React, Node.js, and Django. My goal is to continue learning
+            Throughout my career, I have honed my skills in programming languages such as Html, CSS, JavaScript
+            and I am proficient in frameworks like React, Node.js and Express.js . My goal is to continue learning
             and growing as a professional, contributing to meaningful projects, and making a positive impact
             in the tech industry.
         </p>
         </div>
 
-    )
-}
+    );
+};
 
 export default About;
