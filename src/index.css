@@ -124,6 +124,56 @@ a:hover {
   color: grey;
 }
 
+/* projects */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250, 1fr));
+  gap: 1.5rem;
+}
+
+.project-card {
+  padding: 1rem;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-align: center;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.project-card h2 {
+  margin : 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.project-card p {
+  font-size: 1rem;
+  color: #667
+}
+
+.project-card a {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  color: #ffffff;
+  background-color: #0c4150;
+  border-radius: 4px;
+  text-decoration: none;
+  /* transition: background-color 0.3s; */
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card a:hover {
+  background-color: #3a8cbe;
+  transform: translateY(-1px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
 @media (max-width: 768px) {
   .content {
     width: 90%;
