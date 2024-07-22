@@ -19,7 +19,7 @@ const Projects = () => {
         }
     ];
 
-    return(
+    return( 
         <div className="content">
             <h1>My Projects</h1>
             <div className="project-grid">
