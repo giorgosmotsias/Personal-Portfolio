@@ -81,16 +81,16 @@ li {
   background-color: #282c34;
   color: white;
   text-align: center;
-  padding: 0,2rem 0; 
-  position: fixed;
+  padding: 0.2rem 0; 
+  /* position: fixed; */
   width: 100%;
   bottom: 0;
-  font-size: 0.8rem; 
+  /* font-size: 0.8rem;  */
 }
 
 .footer p {
   margin: 0;
-  font-size: 0.8rem; 
+  font-size: 0.9rem; 
 }
 
 
