@@ -11,7 +11,7 @@ nav {
   color: white;
   padding: 1rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  
+
 }
 
 nav ul {
@@ -53,7 +53,7 @@ nav ul li a:hover {
 h1 {
   font-size: 2.5rem;
   color: #282c34;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   text-align: center;
 }
 
@@ -70,6 +70,7 @@ li {
   margin-bottom: 0.5rem;
 }
 
+/* footer */
 .footer {
   text-align: center;
   padding: 0.2rem;
@@ -80,7 +81,7 @@ li {
   width: 100%;
   font-size: 0.8rem;
 }
-
+/* contact form */
 form {
   display: flex;
   flex-direction: column;
