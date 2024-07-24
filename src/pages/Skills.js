@@ -17,7 +17,7 @@ const skills = [
   
     const Skills = () => {
         return (
-          <div className="content">
+          <div className="content" id="skills">
             <h1>Technologies I've Worked With</h1>
             <div className="skills-grid">
               {skills.map((skill, index) => (

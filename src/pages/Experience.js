@@ -38,7 +38,7 @@ const Experience = () => {
     return (
         <div>
         <h1>Experience</h1>
-            <ul className="experience-list">
+            <ul className="experience-list" id="experience">
                 {experienceList.map((job, index) => (
                     <li key={index} className="experience-item">
                         <h2>{job.company}</h2>

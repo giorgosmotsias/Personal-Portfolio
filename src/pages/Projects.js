@@ -20,7 +20,7 @@ const Projects = () => {
     ];
 
     return( 
-        <div className="content">
+        <div className="content" id="projects">
             <h1>My Projects</h1>
             <div className="project-grid">
                 {projectList.map((project, index) => (

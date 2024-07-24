@@ -14,12 +14,12 @@ function App() {
     <div className="wrapper">
       <Header />
       <div className="content">
-        <Home />
-        <About />
-        <Projects />
-        <Skills />
-        <Experience />
-        <Contact />
+      <section id="home"><Home /></section>
+        <section id="about"><About /></section>
+        <section id="projects"><Projects /></section>
+        <section id="skills"><Skills /></section>
+        <section id="experience"><Experience /></section>
+        <section id="contact"><Contact /></section>
       </div>
       <Footer />
     </div>

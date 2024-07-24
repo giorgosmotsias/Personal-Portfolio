@@ -5,7 +5,7 @@ import './About.css';
 
 const About = () => {
     return (
-        <div className="about-container">
+        <div className="about-container" id="about">
           <div className="profile-pic" style={{ backgroundImage: `url(${profilePic})` }}></div>
             <div className="about-content">
                 <h1>About Me</h1>
