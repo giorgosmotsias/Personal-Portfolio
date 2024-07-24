@@ -3,7 +3,7 @@ import React from 'react';
 
 const Home = () => {
   return (
-    <div className="content">
+    <div id='home'>
       <h1>Welcome to Giorgos Motsias' Portfolio</h1>
       <p>
         Hi, I'm Giorgos Motsias, a software engineer with expertise in developing innovative solutions.
