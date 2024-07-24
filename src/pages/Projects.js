@@ -3,9 +3,9 @@ import React from "react";
 const Projects = () => {
     const projectList = [
         {
-            name: "TimeTabling",
-            description: "Application of Constraint Programming for the Solution of the Timetabling Problem.",
-            link: "https://github.com/giorgosmotsias/TimeTabling"
+            name: "React Portfolio",
+            description: "My personal portfolio website.",
+            link: "https://github.com/giorgosmotsias/Personal-Portfolio"
         },
         {
             name: "Calculator",
@@ -13,10 +13,10 @@ const Projects = () => {
             link: "https://github.com/giorgosmotsias/calcappTest"
         },
         {
-            name: "React Portfolio",
-            description: "My personal portfolio website.",
-            link: "https://github.com/giorgosmotsias/Personal-Portfolio"
-        }
+            name: "TimeTabling",
+            description: "Application of Constraint Programming for the Solution of the Timetabling Problem.",
+            link: "https://github.com/giorgosmotsias/TimeTabling"
+        },
     ];
 
     return( 
