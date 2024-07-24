@@ -32,9 +32,26 @@ a:hover {
   min-height: 100vh;
 }
 
+/* style for about */
+/* .profile-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.profile-pic {
+  width: 170px;
+  height: 150px;
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  border-radius: 50%;
+  border: 2px solid #64ffda;
+} */
+
 /* Style for the content */
 .content {
-  flex: 1;
+  /* flex: 1; */
   padding: 2rem;
   background-color: #112240;
   margin: 2rem auto;
