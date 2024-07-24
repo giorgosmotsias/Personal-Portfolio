@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState , useEffect} from 'react';
 import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
@@ -11,6 +11,21 @@ import './index.css';
 import './App.css';
 
 function App() {
+    const [showButton, setShowButton] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+          setShowButton(window.scrollY > 300);
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        return () => window.removeEventListener('scroll', handleScroll);
+      }, []);
+
+    const scrollToTop = () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+
   return (
     <div className="wrapper">
       <Header />
@@ -23,6 +38,11 @@ function App() {
         <section id="contact"><Contact /></section>
       </div>
       <Footer />
+      {/* add top up button */
+        showButton && (
+            <button className = "scroll-to-top" onClick={scrollToTop}>Top</button>
+        )
+      }
     </div>
   );
 }

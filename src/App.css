@@ -28,6 +28,31 @@
   color: #61dafb;
 }
 
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #64ffda;
+  color: #0a192f;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: opacity 0.5s;
+  z-index: 1000;
+}
+
+.scroll-to-top:hover {
+  background-color: #52c7c7;
+  color: #ffffff;
+}
+
+.scroll-to-top.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
