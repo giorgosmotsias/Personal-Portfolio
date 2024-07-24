@@ -1,28 +1,27 @@
 .about-container {
-    text-align: center;
-    padding: 2rem;
-  }
-  
-  .profile-pic {
-    width: 170px;
-    height: 170px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: block;
-    margin: 0 auto 1rem;
-    border-radius: 50%;
-    border: 2px solid #64ffda;
-  }
-  
-  h1 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    color: #ccd6f6;
-  }
-  
-  p {
-    font-size: 1rem;
-    color: #8892b0;
-  }
-  
+  text-align: center;
+  padding: 2rem;
+}
+
+.profile-pic {
+  width: 170px;
+  height: 170px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+  margin: 0 auto 1rem;
+  border-radius: 50%;
+  border: 2px solid #64ffda;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #ccd6f6;
+}
+
+p {
+  font-size: 1rem;
+  color: #8892b0;
+}
