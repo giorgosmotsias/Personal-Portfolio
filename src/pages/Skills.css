@@ -1,0 +1,26 @@
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+    padding-top: 2rem;
+}
+  
+
+.skill {
+    text-align: center;
+    color: #64ffda;
+    transition: transform 0.3s;
+}
+  
+.skill:hover {
+    transform: scale(1.1);
+}
+  
+.skill p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #ccd6f6;
+}
