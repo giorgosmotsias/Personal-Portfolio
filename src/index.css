@@ -215,6 +215,10 @@ input, textarea {
   border-radius: 4px;
 }
 
+textarea{
+  height: 150px;
+}
+
 button {
   background-color: #64ffda;
   color: #0a192f;
