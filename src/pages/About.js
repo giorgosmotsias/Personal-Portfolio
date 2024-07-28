@@ -2,6 +2,7 @@
 import React  from 'react';
 import profilePic from "../images/IMG_2763.png"; 
 import './About.css';
+import SocialLinks from '../components/SocialLinks';
 
 const About = () => {
     return (
@@ -18,6 +19,7 @@ const About = () => {
                     Throughout my career, I have honed my skills in programming languages such as Html, CSS, JavaScript and I am proficient in frameworks like React, Node.js, and Express.js.
                     My goal is to continue learning and growing as a professional, contributing to meaningful projects, and making a positive impact in the tech industry.
                 </p>
+                <SocialLinks/>
             </div>
         </div>
     );
