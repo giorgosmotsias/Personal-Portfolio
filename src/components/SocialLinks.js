@@ -7,7 +7,7 @@ import "./SocialLinks.css";
 const SocialLinks = () => {
     return (
         <div className="social-links">
-            <a href="/Georgios_Motsias_Resume_2024.pdf" target="_blank" rel="noopener noreferrer" className="social-link">
+            <a href="/GeorgiosMotsias_08_24.pdf" target="_blank" rel="noopener noreferrer" className="social-link">
                 <FontAwesomeIcon icon={faFileAlt} size="2x" color="#0077b5" />
                 <span>View my Resume</span>
             </a>

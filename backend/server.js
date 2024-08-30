@@ -5,12 +5,17 @@ const bodyParser = require('body-parser');
 require('dotenv').config();
 
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3003;
 
 //Millware
 app.use(cors());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json()); 
+
+app.get("/", (req, res) => {
+    res.send("Welcome to the backend server!");
+});
+
 
 //post request
 app.post("/contact", (req, res) => {
