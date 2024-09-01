@@ -27,7 +27,7 @@ const Header = () => {
   return (
     <nav className={`navbar ${ShowHeader ? 'visible' : 'hidden'}`}>
       <ul>
-        <li><Link to="home" smooth={true} duration={1000}>Home</Link></li>
+        {/* <li><Link to="home" smooth={true} duration={1000}>Home</Link></li> */}
         <li><Link to="about" smooth={true} duration={1000}>About</Link></li>
         <li><Link to="projects" smooth={true} duration={1000}>Projects</Link></li>
         <li><Link to="skills" smooth={true} duration={1000}>Skills</Link></li>
