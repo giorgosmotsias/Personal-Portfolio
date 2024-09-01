@@ -9,6 +9,8 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import './index.css';
 import './App.css';
+import './pages/About.css';
+import './pages/Skills.css';
 
 function App() {
     const [showButton, setShowButton] = useState(false);
