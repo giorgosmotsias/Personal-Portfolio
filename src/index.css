@@ -10,12 +10,14 @@ body {
 
 /* Style for headers */
 h1, h2, h3, h4 {
-  font-family: 'Calibre', sans-serif;
+  
   color: #ccd6f6;
 }
 
 h1 {
   text-align: center;
+  margin-bottom:   20px;
+  /* color: #64ffda; */
   /* margin-top: 2rem; */
 }
 
@@ -143,7 +145,7 @@ button:hover {
 
 .project-card p {
   font-size: 1rem;
-  color: #667;
+  color: rgb(187, 187, 189);
 }
 
 .project-card a {
@@ -162,6 +164,18 @@ button:hover {
   transform: translateY(-1px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
+
+.tech-tag {
+  display: inline-block;
+  background-color: #333;
+  color: white;
+  padding: 0.3em 0.6em;
+  margin: 0.2em;
+  border-radius: 15px;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
 
 /* Style for the experience section */
 .experience-list {

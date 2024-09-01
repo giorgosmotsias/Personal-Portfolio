@@ -8,14 +8,14 @@ const SocialLinks = () => {
     return (
         <div className="social-links">
             <a href="/GeorgiosMotsias_08_24.pdf" target="_blank" rel="noopener noreferrer" className="social-link">
-                <FontAwesomeIcon icon={faFileAlt} size="2x" color="#0077b5" />
+                <FontAwesomeIcon icon={faFileAlt} size="2x" color="#64ffda" />
                 <span>View my Resume</span>
             </a>
             <a href="https://www.linkedin.com/in/your-linkedin" target="_blank" rel="noopener noreferrer" className="social-icon">
-                <FontAwesomeIcon icon={faLinkedin} size="2x" color="#0077b5" />
+                <FontAwesomeIcon icon={faLinkedin} size="2x" color="#64ffda" />
             </a>
             <a href="https://github.com/your-github" target="_blank" rel="noopener noreferrer" className="social-icon">
-                <FontAwesomeIcon icon={faGithub} size="2x" color="#333" />
+                <FontAwesomeIcon icon={faGithub} size="2x" color="#64ffda" />
             </a>
         </div>
     );

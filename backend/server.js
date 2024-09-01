@@ -18,15 +18,20 @@ app.get("/", (req, res) => {
 
 
 //post request
-app.post("/contact", (req, res) => {
+app.post("http://localhost:3003/contact", (req, res) => {
     const { name, email, message } = req.body;
     const emailPassword = process.env.EMAIL_PASSWORD;
 
     const transporter = nodemailer.createTransport({
-        service: 'outlook',
+        host: "smtp-mail.outlook.com",
+        port: 587,
+        secure: false,
         auth: {
             user: 'giorgosmotsias@outlook.com',
             pass: emailPassword
+        },
+        tls: {
+            ciphers: 'SSLv3'
         }
     });
 
@@ -37,7 +42,7 @@ app.post("/contact", (req, res) => {
         text: message
     };
 
-    transporter.sendMail(mailOptions, (error, info) => {
+    transporter.sendMail(mailOptions, (error, info) => { 
         if (error) {
             console.log(error);
             res.status(500).send('Error sending email');
