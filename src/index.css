@@ -19,6 +19,7 @@ h1 {
   margin-bottom:   20px;
   /* color: #64ffda; */
   /* margin-top: 2rem; */
+  
 }
 
 /* Style for links */
@@ -199,7 +200,7 @@ button:hover {
 .experience-item h3 {
   margin: 0.3rem 0;
   font-size: 1.2rem;
-  color: #666;
+  color: #afafafdc;
 }
 
 .experience-item p {
