@@ -1,8 +1,10 @@
 const express = require('express');
-const nodemailer = require('nodemailer');
 const cors = require('cors');
 const bodyParser = require('body-parser');
 require('dotenv').config();
+
+const Resend = require('resend').Resend;
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 const app = express();
 const port = process.env.PORT || 3003;
@@ -16,43 +18,25 @@ app.get("/", (req, res) => {
     res.send("Welcome to the backend server!");
 });
 
-
-//post request
-app.post("http://localhost:3003/contact", (req, res) => {
+app.post("/contact", async (req, res) => {
     const { name, email, message } = req.body;
-    const emailPassword = process.env.EMAIL_PASSWORD;
 
-    const transporter = nodemailer.createTransport({
-        host: "smtp-mail.outlook.com",
-        port: 587,
-        secure: false,
-        auth: {
-            user: 'giorgosmotsias@outlook.com',
-            pass: emailPassword
-        },
-        tls: {
-            ciphers: 'SSLv3'
-        }
-    });
+    try {
+        const data = await resend.emails.send({
+            from: "no-reply@motsias.com",  
+            to: "giorgosmotsias@outlook.com",
+            subject: `New message from ${name}`,
+            text: `From: ${name} <${email}>\n\nMessage:\n${message}`,
+        });
+        
+        console.log("Email sent successfully:", data);
+        res.status(200).json({ message: "Email sent successfully!" });
 
-    const mailOptions = {
-        from: email,
-        to: 'giorgosmotsias@outlook.com',
-        subject: `Contact form submission from ${name}`,
-        text: message
-    };
-
-    transporter.sendMail(mailOptions, (error, info) => { 
-        if (error) {
-            console.log(error);
-            res.status(500).send('Error sending email');
-        } else {
-            console.log('Email sent: ' + info.response);
-            res.status(200).send('Email sent successfully');
-        }
-    });
+    } catch (error) {
+        console.error("Error sending email:", error);
+        res.status(500).json({ message: "Error sending email" });
+    }
 });
-
 
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);

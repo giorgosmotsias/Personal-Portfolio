@@ -9,7 +9,7 @@
   .social-link {
     display: flex;
     align-items: center;
-    background-color: #333;
+    background-color: #33333300;
     color: #fff;
     padding: 0.5rem 1rem;
     border-radius: 8px;
@@ -22,7 +22,7 @@
   }
   
   .social-link:hover {
-    background-color: #0077b5;
+    background-color: #0076b513;
     transform: translateY(-3px);
   }
   
@@ -39,5 +39,6 @@
   
   .social-icon:hover {
     transform: translateY(-3px);
+    
   }
   
