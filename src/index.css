@@ -149,7 +149,7 @@ button:hover {
 /* Style for the experience section */
 .experience-list {
   list-style-type: none;
-  padding: 0;
+  padding: 2rem 0;
 }
 
 .experience-item {
