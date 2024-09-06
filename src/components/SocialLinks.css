@@ -58,3 +58,9 @@
 .social-link span, .social-icon span {
     margin-top: 0; 
 } */
+
+@media (max-width: 768px) {
+  .social-link span{
+    margin-left: -0.5rem;
+  }
+}

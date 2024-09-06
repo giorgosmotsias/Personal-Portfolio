@@ -52,6 +52,10 @@
   pointer-events: none;
 }
 
+.scroll-to-top i {
+  font-size: 2rem; /* Size of the arrow */
+}
+
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -76,5 +80,15 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+
+@media (max-width: 768px) {
+  .scroll-to-top {
+    bottom: 5px;
+    right: 5px;
+    padding: 5px 10px;
+    font-size: 0.7rem;
   }
 }

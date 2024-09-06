@@ -11,6 +11,8 @@ import './index.css';
 import './App.css';
 import './pages/About.css';
 import './pages/Skills.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
 
 function App() {
     const [showButton, setShowButton] = useState(false);
@@ -40,9 +42,11 @@ function App() {
         <section id="contact"><Contact /></section>
       </div>
       <Footer />
-      {/* add top up button */
+      {
         showButton && (
-            <button className = "scroll-to-top" onClick={scrollToTop}>Top</button>
+          <button className="scroll-to-top" onClick={scrollToTop}>
+            <FontAwesomeIcon icon={faArrowUp} />
+          </button>
         )
       }
     </div>
