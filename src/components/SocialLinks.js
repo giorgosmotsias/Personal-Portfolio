@@ -8,12 +8,10 @@ import "./SocialLinks.css";
 const SocialLinks = () => {
     return (
         <div className="social-links">
-            <a href="#contact" className="social-link">
-                <Link to="contact" smooth={true} duration={1000}>
-                    <FontAwesomeIcon icon={faEnvelope} size="2x" color="#64ffda" />
-                    <span>Contact Me Here</span>
-                </Link>
-            </a>
+            <Link to="contact" smooth={true} duration={1000} className="social-link">
+                <FontAwesomeIcon icon={faEnvelope} size="2x" color="#64ffda" />
+                <span>Contact Me Here</span>
+            </Link>
             <a href="/GeorgiosMotsias_08_24.pdf" target="_blank" rel="noopener noreferrer" className="social-link">
                 <FontAwesomeIcon icon={faFileAlt} size="2x" color="#64ffda" />
                 <span>View my Resume</span>
