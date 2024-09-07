@@ -1,6 +1,6 @@
 .about-container {
   text-align: center;
-  padding: 4rem;
+  padding: 2.5rem;
 }
 
 .profile-pic {
@@ -23,4 +23,16 @@ h1 {
 p {
   font-size: 1rem;
   color: #ccd6f6;
+}
+
+@media (max-width: 768px) {
+
+  .about-container {
+    padding: 1rem;
+  }
+
+  p{
+    width: 100%;
+  }
+
 }
