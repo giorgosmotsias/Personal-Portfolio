@@ -47,21 +47,23 @@
     
   }
   
-  /* .social-link, .social-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5rem; 
-    text-align: center; 
-}
-
-.social-link span, .social-icon span {
-    margin-top: 0; 
-} */
 
 @media (max-width: 768px) {
   .social-link span{
     margin-left: -0.5rem;
   }
   
+  .social-links {
+    flex-direction: column; /* Αλλάζει την κατεύθυνση σε κάθετη */
+    gap: 0.5rem; /* Μειώνει το κενό ανάμεσα στα εικονίδια και το κείμενο */
+  }
+
+  .social-link {
+    padding: 0.5rem; /* Μειώνει την εσωτερική απόσταση για να χωράει καλύτερα */
+  }
+
+  .social-link span {
+    margin-left: 0; /* Διασφαλίζει ότι το κείμενο δεν κινείται υπερβολικά */
+  }
+
 }
