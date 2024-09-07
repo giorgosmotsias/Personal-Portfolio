@@ -54,16 +54,16 @@
   }
   
   .social-links {
-    flex-direction: column; /* Αλλάζει την κατεύθυνση σε κάθετη */
-    gap: 0.5rem; /* Μειώνει το κενό ανάμεσα στα εικονίδια και το κείμενο */
+    flex-direction: column; 
+    gap: 0.5rem; 
   }
 
   .social-link {
-    padding: 0.5rem; /* Μειώνει την εσωτερική απόσταση για να χωράει καλύτερα */
+    padding: 0.5rem; 
   }
 
   .social-link span {
-    margin-left: 0; /* Διασφαλίζει ότι το κείμενο δεν κινείται υπερβολικά */
+    margin-left: 0; 
   }
 
 }

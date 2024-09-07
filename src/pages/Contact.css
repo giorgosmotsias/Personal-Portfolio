@@ -1,0 +1,12 @@
+@media (max-width: 768px) {
+    
+.content {
+    max-width: 100%;
+    word-wrap: break-word;
+  }
+  
+  a {
+    word-wrap: break-word;
+    white-space: normal;
+  }
+}
