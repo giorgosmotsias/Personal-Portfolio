@@ -7,7 +7,7 @@
   }
   
   .social-link {
-    /* display: flex; */
+    display: flex;
     align-items: center;
     background-color: #33333300;
     color: #fff;
@@ -20,8 +20,10 @@
   
   .social-link span {
     margin-left: 0.5rem;
-    display: inline-block;
-    vertical-align: middle;
+    display: flex ;
+    align-items: center;
+  justify-content: center;
+    /* vertical-align: middle; */
     color: #fff;
     text-align: center;
   }
@@ -50,20 +52,17 @@
 
 @media (max-width: 768px) {
   .social-link span{
-    margin-left: -0.5rem;
+    margin-left: 0.5rem;
   }
   
-  .social-links {
+  /* .social-links {
     flex-direction: column; 
     gap: 0.5rem; 
   }
 
   .social-link {
     padding: 0.5rem; 
-  }
+  } */
 
-  .social-link span {
-    margin-left: 0; 
-  }
 
 }
