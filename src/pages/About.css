@@ -1,6 +1,6 @@
 .about-container {
   text-align: center;
-  padding: 2.5rem;
+  padding-top: 4rem;
 }
 
 .profile-pic {
@@ -28,7 +28,7 @@ p {
 @media (max-width: 768px) {
 
   .about-container {
-    padding: 1rem;
+    padding-top: 2.5rem;
   }
 
   p{
