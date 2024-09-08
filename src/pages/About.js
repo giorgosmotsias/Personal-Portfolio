@@ -9,9 +9,9 @@ const About = () => {
         <div className="about-container" id="about">
           <div className="profile-pic" style={{ backgroundImage: `url(${profilePic})` }}></div>
             <div className="about-content">
-                <h1>About Me</h1>
+                {/* <h1>About Me</h1> */}
                 <p>
-                    I am Giorgos Motsias, a dedicated software engineer with a passion for technology and innovation.
+                    Hey, i am Giorgos Motsias, a dedicated software engineer with a passion for technology and innovation.
                     With extensive experience in software development, I specialize in creating robust and efficient solutions to complex problems.
                     I hold a degree in Computer Science and have worked on various projects that demonstrate my skills in full-stack development, problem-solving, and teamwork.
                 </p>
