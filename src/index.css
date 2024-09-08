@@ -186,7 +186,7 @@ button:hover {
 form {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   gap: 1rem;
   margin-top: 1rem;
 }
@@ -197,7 +197,7 @@ label {
 }
 
 input, textarea {
-  width: 100%;
+  width: 95%;
   padding: 0.5rem;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -208,6 +208,8 @@ textarea{
 }
 
 button {
+  display: inline-block;
+  width: auto;
   background-color: #64ffda;
   color: #0a192f;
   border: 2px solid #64ffda;
@@ -215,6 +217,8 @@ button {
   border-radius: 5px;
   cursor: pointer;
   transition: all 0.3s;
+  text-align: center;
+  align-self: center;
 }
 
 button:hover {

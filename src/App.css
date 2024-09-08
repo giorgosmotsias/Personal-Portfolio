@@ -28,7 +28,9 @@
   color: #61dafb;
 }
 
-.scroll-to-top {
+.scroll-to-top {  justify-content: center;
+  display: flex;
+  width: 20px;
   position: fixed;
   bottom: 20px;
   right: 20px;

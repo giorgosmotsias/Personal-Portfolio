@@ -45,7 +45,7 @@ const Contact = () => {
 
             <p> 
                 If you would like to get in touch, please reach out via email: 
-                <a href="mailto:giorgosmotsias@outlook.com">giorgosmotsias@outlook.com</a>, or fill out the form below.
+                <a href="mailto:giorgosmotsias@outlook.com"> giorgosmotsias@outlook.com</a>, or fill out the form below.
             </p>
 
             <form onSubmit={handleSubmit}>
