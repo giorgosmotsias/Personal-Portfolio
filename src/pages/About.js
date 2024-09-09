@@ -11,8 +11,8 @@ const About = () => {
             <div className="about-content">
                 {/* <h1>About Me</h1> */}
                 <p>
-                    Hey, i am Giorgos Motsias, a dedicated software engineer with a passion for technology and innovation.
-                    With extensive experience in software development, I specialize in creating robust and efficient solutions to complex problems.
+                    Hey, i am Giorgos Motsias, i am 27-year-old software engineer with a passion for Web Development.
+                    With experience in software development, I specialize in creating robust and efficient solutions to complex problems.
                     I hold a degree in Computer Science and have worked on various projects that demonstrate my skills in full-stack development, problem-solving, and teamwork.
                 </p>
                 <p>
