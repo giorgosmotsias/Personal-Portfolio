@@ -34,7 +34,6 @@ function App() {
 
   return (
     <div className="wrapper">
-      <Analytics />
       <Header />
       <div className="content">
         {/* <section id="home"><Home /></section> */}
@@ -44,7 +43,9 @@ function App() {
         <section id="experience"><Experience /></section>
         <section id="contact"><Contact /></section>
       </div>
+      <Analytics />
       <Footer />
+
       {
         showButton && (
           <button className="scroll-to-top" onClick={scrollToTop}>
