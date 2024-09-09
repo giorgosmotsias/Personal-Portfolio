@@ -13,6 +13,7 @@ const skills = [
     { icon: faNode, name: "Node.js" },
     { icon: faDatabase , name : "SQL"},
     { icon: faDatabase, name: "MongoDB" },
+    { icon: faServer, name: "RESTful APIs" },
     { icon: faGithub, name: "GitHub" },
   ];
   
