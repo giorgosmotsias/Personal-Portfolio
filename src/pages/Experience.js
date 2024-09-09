@@ -20,7 +20,7 @@ const Experience = () => {
                         ensuring seamless functionality and a user-friendly design.
                     </span>
                 ),
-                "Currently leading the development of a decentralized finance (DeFi) web application, utilizing an aggregate method for efficient data handling and integration. Responsible for both frontend and backend development, ensuring scalability and security in a blockchain-based environment.",
+                "Currently leading the development of a decentralized finance (DeFi) web application, utilizing an aggregate method for efficient data handling and integration. I lead both frontend and backend development with the focus on scalability and security on a blockchain platform.",
                 
                 "Stack: HTML, CSS, JavaScript, React, Node.js, Express.js, SQL, MongoDB, REST APIs"
             ]
