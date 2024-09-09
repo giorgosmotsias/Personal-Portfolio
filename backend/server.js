@@ -10,7 +10,13 @@ const app = express();
 const port = process.env.PORT || 3003;
 
 //Millware
-app.use(cors());
+const corsOptions = {
+    origin: 'https://www.motsias.com',
+    optionsSuccessStatus: 200
+};
+
+app.use(cors(corsOptions));
+
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json()); 
 
@@ -23,7 +29,7 @@ app.post("/contact", async (req, res) => {
 
     try {
         const data = await resend.emails.send({
-            from: "no-reply@motsias.com",  
+            from: "onboarding@resend.dev",  
             to: "giorgosmotsias@outlook.com",
             subject: `New message from ${name}`,
             text: `From: ${name} <${email}>\n\nMessage:\n${message}`,
