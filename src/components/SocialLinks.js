@@ -12,7 +12,7 @@ const SocialLinks = () => {
                 <FontAwesomeIcon icon={faEnvelope} size="2x" color="#64ffda" />
                 <span>Contact Me Here</span>
             </Link>
-            <a href="/GeorgiosMotsias_09_10.pdf" target="_blank" rel="noopener noreferrer" className="social-link">
+            <a href="/Georgios_Motsias_09_10.pdf" target="_blank" rel="noopener noreferrer" className="social-link">
                 <FontAwesomeIcon icon={faFileAlt} size="2x" color="#64ffda" />
                 <span>View my Resume</span>
             </a>
