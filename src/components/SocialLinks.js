@@ -16,10 +16,10 @@ const SocialLinks = () => {
                 <FontAwesomeIcon icon={faFileAlt} size="2x" color="#64ffda" />
                 <span>View my Resume</span>
             </a>
-            <a href="https://www.linkedin.com/in/your-linkedin" target="_blank" rel="noopener noreferrer" className="social-icon">
+            <a href="www.linkedin.com/in/giorgosmotsias" target="_blank" rel="noopener noreferrer" className="social-icon">
                 <FontAwesomeIcon icon={faLinkedin} size="2x" color="#64ffda" />
             </a>
-            <a href="https://github.com/your-github" target="_blank" rel="noopener noreferrer" className="social-icon">
+            <a href="https://github.com/giorgosmotsias" target="_blank" rel="noopener noreferrer" className="social-icon">
                 <FontAwesomeIcon icon={faGithub} size="2x" color="#64ffda" />
             </a>
         </div>
