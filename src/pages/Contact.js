@@ -1,5 +1,6 @@
 import React, { useState } from "react"; 
 import './Contact.css';
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
     const [formData, setFormData] = useState({
@@ -10,33 +11,34 @@ const Contact = () => {
 
     const handleChange = (e) => {
         const { name, value } = e.target;
-        setFormData(prevState => ({
-            ...prevState,
-            [name]: value
-        }));
+        setFormData({ ...formData, [name]: value });
     };
 
-    const handleSubmit = async (e) => {
+    const handleSubmit = (e) => {
         e.preventDefault();
 
-        try {
-            const response = await fetch('/contact', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify(formData)
-            });
+        emailjs.send(
+            'service_tf2j322',          
+            'template_pw5mmcs',         
+            {
+                from_name: formData.name,    
+                reply_to: formData.email,    
+                message: formData.message   
+            },                            
+            'i4B9QdB0wieMhAvPd'              
+        ).then((result) => {
+            alert("Your message has been sent successfully!");
+            console.log(result.text);
+        }).catch((error) => {
+            alert("An error occurred while sending the message.");
+            console.log(error.text);
+        });
 
-            if (response.ok) {
-                alert('Email sent successfully!');
-            } else {
-                alert('Failed to send email.');
-            }
-        } catch (error) {
-            console.error('Error:', error);
-            alert('Error sending email.');
-        }
+        setFormData({
+            name: '',
+            email: '',
+            message: ''
+        });
     };
 
     return (
