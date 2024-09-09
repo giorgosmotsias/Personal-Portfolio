@@ -7,7 +7,7 @@ const { Resend } = require('resend');
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 const app = express();
-const port = process.env.PORT || 3003;
+const port =  3003;
 
 //Millware
 app.use(cors());
@@ -20,8 +20,10 @@ app.get("/", (req, res) => {
 
 app.post("/contact", async (req, res) => {
     const { name, email, message } = req.body;
+    
 
     try {
+        console.log(data);
         const data = await resend.emails.send({
             from: 'From <onboarding@resend.dev>', 
             to: "giorgosmotsias@outlook.com",

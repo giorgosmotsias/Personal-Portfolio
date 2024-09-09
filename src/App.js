@@ -14,6 +14,7 @@ import './pages/Skills.css';
 import './pages/Contact.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
     const [showButton, setShowButton] = useState(false);
@@ -43,6 +44,7 @@ function App() {
         <section id="contact"><Contact /></section>
       </div>
       <Footer />
+      <Analytics />
       {
         showButton && (
           <button className="scroll-to-top" onClick={scrollToTop}>
