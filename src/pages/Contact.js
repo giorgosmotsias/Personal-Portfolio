@@ -1,6 +1,7 @@
 import React, { useState } from "react"; 
 import './Contact.css';
 import emailjs from 'emailjs-com';
+import Swal from 'sweetalert2';
 
 const Contact = () => {
     const [formData, setFormData] = useState({
@@ -27,11 +28,19 @@ const Contact = () => {
             },                            
             'i4B9QdB0wieMhAvPd'              
         ).then((result) => {
-            alert("Your message has been sent successfully!");
-            console.log(result.text);
+            Swal.fire({
+                icon: 'success',
+                title: 'Message Sent!',
+                text: 'Your message has been sent successfully!',
+                confirmButtonText: 'OK',
+            });
         }).catch((error) => {
-            alert("An error occurred while sending the message.");
-            console.log(error.text);
+            Swal.fire({
+                icon: 'error',
+                title: 'Error!',
+                text: 'An error occurred while sending the message.',
+                confirmButtonText: 'Try Again',
+            });
         });
 
         setFormData({
