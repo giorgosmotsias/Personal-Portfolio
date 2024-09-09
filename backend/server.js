@@ -10,13 +10,7 @@ const app = express();
 const port = process.env.PORT || 3003;
 
 //Millware
-const corsOptions = {
-    origin: 'https://www.motsias.com',
-    optionsSuccessStatus: 200
-};
-
-app.use(cors(corsOptions));
-
+app.use(cors());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json()); 
 
