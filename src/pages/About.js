@@ -11,12 +11,12 @@ const About = () => {
             <div className="about-content">
                 {/* <h1>About Me</h1> */}
                 <p>
-                    Hey, i am Giorgos Motsias, i am a 27-year-old software engineer with a passion for Web Development.
-                    With experience in software development, I specialize in creating robust and efficient solutions to complex problems.
-                    I hold a degree in Computer Science and have worked on various projects that demonstrate my skills in full-stack development, problem-solving, and teamwork.
+                    Hi, I'm Giorgos Motsias, a 27-year-old software engineer with a passion for web development. 
+                    As a Full-Stack Developer with a strong focus on developing creative web solutions. I have consistently solved complex challenges in web development. I hold a degree in Computer Science and have worked on various projects that demonstrate my expertise in full-stack development, problem-solving, and teamwork.
                 </p>
                 <p>
-                    Throughout my career, I have honed my skills in programming languages such as Html, CSS, JavaScript and I am proficient in frameworks like React.js, Node.js, and Express.js.
+                    "Throughout my career, I have honed my skills in programming languages such as HTML, CSS, and JavaScript, as well as frameworks like React.js, Node.js, and Express.js. 
+                    In both past and ongoing projects, I utilize these technologies, along with other tools like SQL, MongoDB, and RESTful APIs, to deliver scalable and high-performing web applications. My experience ranges from building interactive front-end interfaces to developing robust back-end systems, ensuring the seamless integration of both.
                     My goal is to continue learning and growing as a professional, contributing to meaningful projects, and making a positive impact in the tech industry.
                 </p>
                 <SocialLinks/>
