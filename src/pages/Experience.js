@@ -22,15 +22,16 @@ const Experience = () => {
                 ),
                 "Currently leading the development of a decentralized finance (DeFi) web application, utilizing an aggregate method for efficient data handling and integration. Responsible for both frontend and backend development, ensuring scalability and security in a blockchain-based environment.",
                 
-                "Stack: HTML , CSS ,Javascript, Node.js, Express.js, SQL, MongoDB, RESTful APIs"
+                "Stack: HTML, CSS, Javascript, React, Node.js, Express.js, SQL, MongoDB, REST APIs"
             ]
         },
         {
             company: "Fishing4fun",
             position: "Internship",
             period: "Oct 2020 - Apr 2021",
-            description: "Database management, photoshop, and customer service.",
+            description: "Gained experience in managing and updating the company website using WordPress. Responsible for managing the SQL database and creating graphic content with Photoshop to support marketing initiatives. Provided excellent customer service ensuring customer satisfaction through effective communication.",
             tasks: [
+                "Wordpress development",
                 "Database management (SQL)",
                 "Photoshop",
                 "Customer service"
