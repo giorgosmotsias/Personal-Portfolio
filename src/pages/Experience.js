@@ -22,7 +22,7 @@ const Experience = () => {
                 ),
                 "Currently leading the development of a decentralized finance (DeFi) web application, utilizing an aggregate method for efficient data handling and integration. Responsible for both frontend and backend development, ensuring scalability and security in a blockchain-based environment.",
                 
-                "Stack: HTML, CSS, Javascript, React, Node.js, Express.js, SQL, MongoDB, REST APIs"
+                "Stack: HTML, CSS, JavaScript, React, Node.js, Express.js, SQL, MongoDB, REST APIs"
             ]
         },
         {
