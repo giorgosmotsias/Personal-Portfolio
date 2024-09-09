@@ -11,7 +11,7 @@ const port = process.env.PORT || 3003;
 
 //Millware
 app.use(cors());
-app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json()); 
 
 app.get("/", (req, res) => {
@@ -23,7 +23,7 @@ app.post("/contact", async (req, res) => {
 
     try {
         const data = await resend.emails.send({
-            from: "onboarding@resend.dev",  
+            from: 'From <onboarding@resend.dev>', 
             to: "giorgosmotsias@outlook.com",
             subject: `New message from ${name}`,
             text: `From: ${name} <${email}>\n\nMessage:\n${message}`,
