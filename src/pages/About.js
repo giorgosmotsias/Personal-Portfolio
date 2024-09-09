@@ -12,12 +12,12 @@ const About = () => {
                 {/* <h1>About Me</h1> */}
                 <p>
                     Hi, I'm Giorgos Motsias, a 27-year-old software engineer with a passion for web development. 
-                    As a Full-Stack Developer, I have a strong focus on creating innovative web solutions and have consistently tackled complex challenges in web development.  I hold a degree in Computer Science and have worked on various projects that demonstrate my expertise in full-stack development, problem-solving, and teamwork.
+                    As a Full-stack Developer, my focus will be on developing innovative web solutions and repeatedly engaging in very challenging web development problems.  I studied Computer Science and did several projects which prove my full-stack development skills, problem-solving, and teamwork.
                 </p>
-                <p>
-                    Throughout my career, I have honed my skills in programming languages such as HTML, CSS, and JavaScript, as well as frameworks like React, Node.js, and Express.js. 
-                    In both past and ongoing projects, I utilize these technologies, along with other tools like SQL, MongoDB, and RESTful APIs, to deliver scalable and high-performing web applications. My experience ranges from building interactive front-end interfaces to developing robust back-end systems, ensuring the seamless integration of both.
-                    My goal is to continue learning and growing as a professional, contributing to meaningful projects, and making a positive impact in the tech industry.
+                <p>              
+                    My career so far has given me a very good chance to boost my programming skills in languages like HTML, CSS, and JavaScript, and in frameworks such as React, Node.js, and Express.js. 
+                    Such technologies as have been named above, and also other tools like SQL, MongoDB, and RESTful APIs are used for past and ongoing projects in order to provide scalable, high-performance web applications.
+                    My experience ranges from building interactive front-end interfaces to developing robust back-end systems, guaranteeing seamless integration in both. I look forward to continuous learning and professional growth, contributing to valuable projects, and leaving my mark in the tech industry.
                 </p>
                 <SocialLinks/>
             </div>
