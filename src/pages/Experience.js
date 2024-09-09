@@ -3,7 +3,7 @@ import React from "react";
 const Experience = () => {
     const experienceList = [
         {
-            company: <a href='http://https://cogninn.com/' target='_blank' rel="noreferrer">@Cogninn</a>,
+            company: <a href='https://cogninn.com/' target='_blank' rel="noreferrer">@Cogninn</a>,
             position: "Full-stack Developer",
             period: "Dec 2023 - Present",
             description: "Developing dynamic websites and AI-powered web applications, with end-to-end responsibility for frontend (UI/UX), backend, database architecture, and the design and integration of RESTful APIs.",

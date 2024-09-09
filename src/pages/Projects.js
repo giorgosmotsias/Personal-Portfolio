@@ -4,8 +4,8 @@ const Projects = () => {
     const projectList = [
         {
             name: "React Portfolio",
-            description: "A personal portfolio website built with React.js and CSS to showcase who I am , my projects, my skills, and my experience.",
-            technologies: ["React.js", "JavaScript", "HTML", "CSS"],
+            description: "A personal portfolio website built with React and CSS to showcase who I am , my projects, my skills, and my experience.",
+            technologies: ["React", "JavaScript", "HTML", "CSS"],
             link: "https://github.com/giorgosmotsias/Personal-Portfolio"
         },
         {

@@ -9,7 +9,7 @@ const skills = [
     { icon: faCss3Alt, name: "CSS" },
     { icon: faJsSquare, name: "JavaScript" },
     { icon: faServer, name: "Express.js" },
-    { icon: faReact, name: "React.js" },
+    { icon: faReact, name: "React" },
     { icon: faNode, name: "Node.js" },
     { icon: faDatabase , name : "SQL"},
     { icon: faDatabase, name: "MongoDB" },
