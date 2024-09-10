@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHtml5, faCss3Alt, faJsSquare, faReact, faNode, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faHtml5, faCss3Alt, faJsSquare, faReact, faNode, faGithub, faGit } from "@fortawesome/free-brands-svg-icons";
 import { faDatabase, faServer } from "@fortawesome/free-solid-svg-icons";
 import "./Skills.css";
 
@@ -15,6 +15,7 @@ const skills = [
     { icon: faDatabase, name: "MongoDB" },
     { icon: faServer, name: "REST APIs" },
     { icon: faGithub, name: "GitHub" },
+    { icon: faGit, name: "Git" },
   ];
   
     const Skills = () => {
